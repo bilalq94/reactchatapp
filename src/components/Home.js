@@ -48,7 +48,7 @@ class Home extends React.Component {
   }
 }
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   title: {
     marginTop: 20,
     marginLeft: 20,

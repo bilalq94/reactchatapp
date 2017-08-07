@@ -1,16 +1,8 @@
 import React from 'react';
+import { Platform } from 'react-native';
+import { Router, Scene } from 'react-native-router-flux';
 import Home from './src/components/Home';
 import Chat from './src/components/Chat';
-
-import {
-  Router,
-  Scene,
-} from 'react-native-router-flux';
-
-import {
-  Platform
-} from 'react-native';
-
 
 export default class App extends React.Component {
   render() {
